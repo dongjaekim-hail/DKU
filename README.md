@@ -10,6 +10,15 @@
     2) Sequential attention을 사용하여 feature selection의 이유 추적 가능 -> interpretability 확보(local & global)
   
   <img src=https://user-images.githubusercontent.com/59715960/234817143-c58d5125-1f07-49a5-af9d-1805c03a20ea.png />
+  
+  - Encoder  
+      <img src=https://user-images.githubusercontent.com/59715960/234817915-8102e9be-7526-4f6c-8a11-807eb9ec40c5.png width="600" height="300"/>
+    
+      - Step의 여러 단계를 거치면서 각 Step 마다 feature selection mask를 구하여 각 Step 별 핵심 feature 파악 가능(local)
+      - 모든 Step의 mask를 합하여 입력받은 전체 데이터에 대해서도 feature의 중요도 파악 가능(global)
+  
+  - Result
+    <img src=https://user-images.githubusercontent.com/59715960/235048302-64b58d87-aabb-4ac0-a349-17ff95f7c836.png width="400" height="300"/> 
 
 ### 요구사항
 
