@@ -9,7 +9,7 @@
     1) 전처리가 거의 필요 없고 최적화 알고리즘으로 경사하강법을 사용하는 구조로 end-to-end 학습에 유연하게 적용 가능
     2) Sequential attention을 사용하여 feature selection의 이유 추적 가능 -> interpretability 확보(local & global)
   
-  <img src=https://user-images.githubusercontent.com/59715960/234817143-c58d5125-1f07-49a5-af9d-1805c03a20ea.png width="600" height="300"/>
+  <img src=https://user-images.githubusercontent.com/59715960/234817143-c58d5125-1f07-49a5-af9d-1805c03a20ea.png width="800" height="300"/>
 
 ### 요구사항
 
