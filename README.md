@@ -35,8 +35,8 @@
   1. Import Libraries
   2. Data Load
   3. Pre Processing
-  4. Define Categorical Features for Categorical Embeddings
-  5. Dataset Split
+  4. Dataset Split
+  5. Define Model
   6. Model Training
   7. Predict & Visualize Mask
 
