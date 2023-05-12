@@ -21,7 +21,12 @@
     <img src=https://user-images.githubusercontent.com/59715960/235048302-64b58d87-aabb-4ac0-a349-17ff95f7c836.png width="400" height="300"/> 
 
 ### 요구사항
+- Python version 3.7.x, 3.8.x, 3.9.x, 3.10.x
+- Tensorflow 2.x
+(pytorch-tabnet 라이브러리로 구현이 되었지만, tensorflow를 사용하여 implementation 수행)
 
 ### 실행 방법
 
 ### pseudocode
+  - Sparse max
+    https://3033184753-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2Fml%2F-MMXoGIZpcHkxIKjt_fv%2F-MMXoN3Uc3VnQnxIBSZu%2Fsparsemax.png?generation=1605828183076774&alt=media![image](https://github.com/KR-ESWord/DKU/assets/59715960/5f939448-7194-404f-98aa-298c1454f845)
