@@ -29,4 +29,20 @@
 
 ### pseudocode
   - Sparse max
-    <img width="200" alt="스크린샷 2023-05-12 오후 1 46 21" src="https://github.com/KR-ESWord/DKU/assets/59715960/dc63986d-0f35-4c96-969b-5811484d81f0">
+  - 
+    <img width="300" alt="스크린샷 2023-05-12 오후 1 46 21" src="https://github.com/KR-ESWord/DKU/assets/59715960/dc63986d-0f35-4c96-969b-5811484d81f0">
+    
+    <pre>
+    <code>
+    def sparsemax(z):
+      sum_all_z = sum(z)
+      z_sorted = sorted(z, reverse=True)
+      k = np.arange(len(z))
+      k_array = 1 + k * z_sorted
+      z_cumsum = np.cumsum(z_sorted) - z_sorted
+      k_selected = k_array > z_cumsum
+      k_max = np.where(k_selected)[0].max() + 1
+      threshold = (z_cumsum[k_max-1] - 1) / k_max
+      return np.maximum(z-threshold, 0)
+    </code>
+    </pre>
