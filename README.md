@@ -29,4 +29,4 @@
 
 ### pseudocode
   - Sparse max
-    https://3033184753-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2Fml%2F-MMXoGIZpcHkxIKjt_fv%2F-MMXoN3Uc3VnQnxIBSZu%2Fsparsemax.png?generation=1605828183076774&alt=media![image](https://github.com/KR-ESWord/DKU/assets/59715960/5f939448-7194-404f-98aa-298c1454f845)
+    <img width="200" alt="스크린샷 2023-05-12 오후 1 46 21" src="https://github.com/KR-ESWord/DKU/assets/59715960/dc63986d-0f35-4c96-969b-5811484d81f0">
