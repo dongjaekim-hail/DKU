@@ -26,9 +26,23 @@
 (pytorch-tabnet 라이브러리로 구현이 되었지만, tensorflow를 사용하여 implementation 수행)
 
 ### 실행 방법
+<pre>
+<code>
+# test
+</code>
+</pre>
+
+  1. Import Libraries
+  2. Data Load
+  3. Pre Processing
+  4. Define Categorical Features for Categorical Embeddings
+  5. Dataset Split
+  6. Model Training
+  7. Predict & Visualize Mask
 
 ### pseudocode
   - Sparse max
+  
     <img width="300" alt="스크린샷 2023-05-12 오후 1 46 21" src="https://github.com/KR-ESWord/DKU/assets/59715960/dc63986d-0f35-4c96-969b-5811484d81f0">
     
     <pre>
