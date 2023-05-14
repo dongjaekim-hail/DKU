@@ -38,7 +38,7 @@
   4. Dataset Split
   5. Define Model
   6. Model Training
-  7. Predict & Visualize Mask
+  7. Predict
 
 ### pseudocode
   - Sparse max
@@ -59,3 +59,6 @@
       return np.maximum(z-threshold, 0)
     </code>
     </pre>
+
+### To Do
+  - Visualize Mask
